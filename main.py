@@ -12,6 +12,7 @@ IP = '127.0.0.1'
 PORT = 19997
 
 
+
 def IK_robot_arm(clientId, handle_name, target_info, move_per_distance=0.001, relative_handle=-1):
     sim.simxGetPingTime(clientID=clientId)
     # the tip of robot
